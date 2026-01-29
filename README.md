@@ -1,2 +1,26 @@
 # Exploratory-Data-Analysis-Character-Attributes-Performance-Insights
-Este projeto realiza uma análise estatística e visual de um conjunto de dados de personagens (baseado em Danganronpa), extraídos de uma planilha Excel. O foco principal foi o tratamento de dados brutos e a geração de visualizações para entender métricas como QI, Altura e Influência.
+> Análise de Dados: Personagens e Atributos
+Este script Python automatiza a leitura, limpeza e visualização de dados de uma planilha Excel contendo informações sobre personagens.
+
+> O que o projeto faz:
+Limpeza Automática: Remove espaços extras e padroniza textos para evitar erros de leitura.
+
+Tratamento de Dados: Converte colunas de Altura, QI e Sobrevivência para números, tratando erros de digitação.
+
+Remoção de Nulos: Limpa linhas incompletas para garantir análises precisas.
+
+Gráficos: Gera visualizações de contagem por influência e médias de QI.
+
+> Tecnologias:
+Python
+
+Pandas (Manipulação de dados)
+
+Matplotlib (Gráficos)
+
+> Como usar:
+Instale as dependências: pip install pandas matplotlib openpyxl
+
+Certifique-se de que o arquivo .xlsx está na pasta correta.
+
+Execute o script project.py.
